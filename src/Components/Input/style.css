@@ -1,0 +1,36 @@
+/* .input{
+    position: relative;
+}
+
+.input-form{
+    position: absolute;
+    left: 20%;
+    margin-top: 60px;
+} */
+
+.input-value{
+    width: 300px;
+    margin-right: 10px;
+    margin-top: 5px;
+    height: 30px;
+    padding: 5px;
+    font-size: 1.1rem;
+    outline: none;
+}
+
+.input-button{
+    width: 70px;
+    height: 30px;
+    background-color: black;
+    border: 1px solid lightgray;
+    cursor: pointer;
+    color: white;
+    box-shadow: 0 0 4px;
+    font-size: 1.1rem;
+}
+.input-button:hover{
+    cursor: pointer;
+    background-color:lightgray;
+    color: black; 
+    transition: .5s;
+}

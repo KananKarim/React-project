@@ -1,0 +1,36 @@
+.todo{
+    width: 350px;
+    /* height: 200px; */
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding: 30px 20px;
+    /* position: absolute;
+    right: 17%;
+    top: 17%; */
+}
+
+.todo-button{
+    width: 150px;
+    height: 35px;
+    background-color: #496ddb;
+    color: white;
+    border: 1px solid #496ddb;
+    cursor: pointer;
+    margin-top: 60px;
+}
+
+.todo-input{
+    height: 30px;
+    padding: 10px;
+    font-size: 1.2rem;
+}
+
+.main{
+    display: flex;
+    width: 920px;
+    margin: auto;
+    justify-content: space-between;
+    margin-top: 40px;
+}
